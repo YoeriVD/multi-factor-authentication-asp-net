@@ -180,7 +180,7 @@ namespace mfa_test.Areas.Identity.Pages.Account.Manage
             return string.Format(
                 CultureInfo.InvariantCulture,
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("Merak Awesomeness"),
+                _urlEncoder.Encode("Yoeri Awesomeness"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }
